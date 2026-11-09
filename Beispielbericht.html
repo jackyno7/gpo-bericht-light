@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html><html lang='de'><head><meta charset='utf-8'><title>GPO-Bericht Light lab.test</title><style>body{font-family:Segoe UI,Arial,sans-serif;color:#2b2f36;margin:0;background:#f4f6fa}
+.seite{max-width:1100px;margin:0 auto;padding:28px 24px 60px}
+h1{color:#1f5fae;margin:0 0 4px;font-size:28px} h2{color:#1f5fae;font-size:19px;margin:34px 0 10px;border-bottom:2px solid #d0d5dd;padding-bottom:6px}
+.meta{color:#6b7280;font-size:13px;margin-bottom:22px}
+.kacheln{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0}
+.kachel{flex:1;min-width:150px;background:#fff;border-radius:10px;padding:14px 18px;border-left:8px solid #999;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.kachel b{display:block;font-size:30px} .kachel span{font-size:13px;color:#6b7280}
+table{border-collapse:collapse;width:100%;background:#fff;font-size:13px;margin:8px 0 4px}
+th{background:#1f5fae;color:#fff;text-align:left;padding:7px 9px;font-weight:600} td{padding:6px 9px;border-bottom:1px solid #e5e7eb;vertical-align:top;overflow-wrap:break-word}
+tr:nth-child(even) td{background:#f9fafb}
+.marke{display:inline-block;min-width:58px;text-align:center;padding:2px 9px;border-radius:11px;color:#fff;font-size:12px;font-weight:600}
+.m-Hoch{background:#d92d20}.m-Mittel{background:#f79009}.m-Niedrig{background:#ca8a04}.m-OK{background:#12b76a}.m-Info{background:#1f5fae}
+.befund{background:#fff;border-radius:10px;padding:16px 20px;margin:14px 0;border-left:8px solid #999;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.befund h3{margin:0 0 6px;font-size:16px} .befund p{margin:5px 0;font-size:14px;line-height:1.45} .befund .emp{color:#14532d}
+.Hoch{border-color:#d92d20}.Mittel{border-color:#f79009}.Niedrig{border-color:#eab308}.OK{border-color:#12b76a}.Info{border-color:#1f5fae}
+.klein{color:#6b7280;font-size:12px} a{color:#1f5fae;text-decoration:none}
+pre{background:#fff;border:1px solid #d0d5dd;border-radius:8px;padding:12px 14px;font-size:12px;white-space:pre-wrap;word-break:break-word}
+.fuss{margin-top:40px;color:#6b7280;font-size:12px;border-top:1px solid #d0d5dd;padding-top:12px}
+@media print{body{background:#fff}.befund,.kachel{box-shadow:none;border:1px solid #d0d5dd;border-left-width:8px;break-inside:avoid}}</style></head><body><div class='seite'><h1>GPO-Bericht Light</h1><div class='meta'>Dom&#228;ne <b>lab.test</b> · erstellt am 09.11.2026 19:42 von LAB\Administrator auf LABDC01</div><div class='kacheln'><div class='kachel Hoch'><b>0</b><span>Befunde mit hoher Priorität</span></div><div class='kachel Mittel'><b>0</b><span>mit mittlerer Priorität</span></div><div class='kachel Niedrig'><b>3</b><span>mit niedriger Priorität</span></div><div class='kachel Info'><b>1</b><span>Hinweise und nicht geprüft</span></div><div class='kachel OK'><b>2</b><span>Prüfpunkte ohne Befund</span></div></div><h2>Umgebung</h2><table><tr><th>Eigenschaft</th><th>Wert</th></tr><tr><td>Dom&#228;ne (NetBIOS)</td><td>lab.test (LAB)</td></tr><tr><td>Gruppenrichtlinien</td><td>5, davon 3 aktiv verkn&#252;pft</td></tr><tr><td>Verkn&#252;pfungen (aktiv / gesamt)</td><td>3 / 3</td></tr><tr><td>Organisationseinheiten / Standorte</td><td>10 / 1</td></tr><tr><td>WMI-Filter</td><td>0</td></tr><tr><td>Inhalt gelesen von</td><td>LABDC01</td></tr><tr><td>SYSVOL verglichen auf</td><td>LABDC01, LABDC02</td></tr></table><h2>Übersicht der Prüfpunkte</h2><table><tr><th>Nr.</th><th>Bereich</th><th>Prüfpunkt</th><th>Treffer</th><th>Bewertung</th></tr><tr><td>F1</td><td>Fehler</td><td><a href='#F1'>Verkn&#252;pfungen auf nicht vorhandene Gruppenrichtlinien</a></td><td>0</td><td><span class='marke m-OK'>OK</span></td></tr><tr><td>S1</td><td>Sicherheit</td><td><a href='#S1'>Jeder Benutzer darf die Richtlinie bearbeiten</a></td><td>0</td><td><span class='marke m-OK'>OK</span></td></tr><tr><td>G1</td><td>Aufr&#228;umen</td><td><a href='#G1'>Nicht verkn&#252;pfte Gruppenrichtlinien</a></td><td>2</td><td><span class='marke m-Niedrig'>Niedrig</span></td></tr><tr><td>G2</td><td>Aufr&#228;umen</td><td><a href='#G2'>Leere Gruppenrichtlinien</a></td><td>2</td><td><span class='marke m-Niedrig'>Niedrig</span></td></tr><tr><td>G3</td><td>Aufr&#228;umen</td><td><a href='#G3'>Vollst&#228;ndig deaktivierte Gruppenrichtlinien</a></td><td>1</td><td><span class='marke m-Niedrig'>Niedrig</span></td></tr><tr><td>A1</td><td>Aufbau</td><td><a href='#A1'>Erzwungene Verkn&#252;pfungen</a></td><td>1</td><td><span class='marke m-Info'>Info</span></td></tr></table><h2>Alle Gruppenrichtlinien</h2><table>
+<colgroup><col/><col/><col/><col/><col/><col/><col/><col/></colgroup>
+<tr><th>Gruppenrichtlinie</th><th>Status</th><th>Aktive Verknüpfungen</th><th>Computereinstellungen</th><th>Benutzereinstellungen</th><th>Version C/B</th><th>WMI-Filter</th><th>Geändert</th></tr>
+<tr><td>Default Domain Controllers Policy</td><td>Aktiv</td><td>1</td><td>Sicherheitseinstellungen</td><td></td><td>2 / 0</td><td></td><td>07.11.2026</td></tr>
+<tr><td>Default Domain Policy</td><td>Aktiv</td><td>1</td><td>Sicherheitseinstellungen, Zertifikate (&#246;ffentliche Schl&#252;ssel)</td><td></td><td>3 / 0</td><td></td><td>07.11.2026</td></tr>
+<tr><td>Test Altlast</td><td>Deaktiviert</td><td>0</td><td></td><td></td><td>0 / 0</td><td></td><td>09.11.2026</td></tr>
+<tr><td>Test Leer</td><td>Aktiv</td><td>0</td><td></td><td></td><td>0 / 0</td><td></td><td>09.11.2026</td></tr>
+<tr><td>Test Sicherheit</td><td>Aktiv</td><td>1</td><td>Administrative Vorlagen</td><td></td><td>1 / 0</td><td></td><td>09.11.2026</td></tr>
+</table><h2>Verkn&#252;pfungen nach Ort (Reihenfolge 1 = h&#246;chste Priorit&#228;t)</h2><table>
+<colgroup><col/><col/><col/><col/><col/></colgroup>
+<tr><th>Ort</th><th>Gruppenrichtlinie</th><th>Reihenfolge</th><th>Aktiv</th><th>Erzwungen</th></tr>
+<tr><td>Dom&#228;ne lab.test</td><td>Test Sicherheit</td><td>2</td><td>Ja</td><td>Ja</td></tr>
+<tr><td>Dom&#228;ne lab.test</td><td>Default Domain Policy</td><td>1</td><td>Ja</td><td>Nein</td></tr>
+<tr><td>OU=Domain Controllers</td><td>Default Domain Controllers Policy</td><td>1</td><td>Ja</td><td>Nein</td></tr>
+</table><h2>Befunde</h2><div class='befund Niedrig' id='G1'><h3><span class='marke m-Niedrig'>Niedrig</span> G1 · Nicht verkn&#252;pfte Gruppenrichtlinien <span class='klein'>(2 Treffer)</span></h3><p>Diese Richtlinien sind mit keiner Dom&#228;ne, Organisationseinheit und keinem Standort aktiv verkn&#252;pft und wirken deshalb nirgends. Verkn&#252;pfungen aus anderen Dom&#228;nen der Gesamtstruktur sieht das Skript nicht.</p><p class='emp'><b>Empfehlung:</b> Pr&#252;fen, ob die Richtlinie noch gebraucht wird (Vorlage, Test). Sonst sichern und l&#246;schen.</p><table>
+<colgroup><col/><col/><col/><col/><col/></colgroup>
+<tr><th>Gruppenrichtlinie</th><th>Status</th><th>Geändert</th><th>Inhalt</th><th>Feststellung</th></tr>
+<tr><td>Test Altlast</td><td>Deaktiviert</td><td>09.11.2026</td><td>keine Einstellungen</td><td>Nirgends verkn&#252;pft</td></tr>
+<tr><td>Test Leer</td><td>Aktiv</td><td>09.11.2026</td><td>keine Einstellungen</td><td>Nirgends verkn&#252;pft</td></tr>
+</table></div><div class='befund Niedrig' id='G2'><h3><span class='marke m-Niedrig'>Niedrig</span> G2 · Leere Gruppenrichtlinien <span class='klein'>(2 Treffer)</span></h3><p>In diesen Richtlinien wurden keine Einstellungen gefunden. Hinweis: WLAN-, IPsec- und Softwareeinschr&#228;nkungs-Richtlinien liegen teils nur im Verzeichnis und werden hier nicht erkannt.</p><p class='emp'><b>Empfehlung:</b> In der Gruppenrichtlinienverwaltung auf der Registerkarte &quot;Einstellungen&quot; gegenpr&#252;fen und leere Richtlinien l&#246;schen.</p><table>
+<colgroup><col/><col/><col/><col/></colgroup>
+<tr><th>Gruppenrichtlinie</th><th>Status</th><th>Geändert</th><th>Feststellung</th></tr>
+<tr><td>Test Altlast</td><td>Deaktiviert</td><td>09.11.2026</td><td>Wurde nie bearbeitet</td></tr>
+<tr><td>Test Leer</td><td>Aktiv</td><td>09.11.2026</td><td>Wurde nie bearbeitet</td></tr>
+</table></div><div class='befund Niedrig' id='G3'><h3><span class='marke m-Niedrig'>Niedrig</span> G3 · Vollst&#228;ndig deaktivierte Gruppenrichtlinien <span class='klein'>(1 Treffer)</span></h3><p>Bei diesen Richtlinien sind Computer- und Benutzerteil abgeschaltet. Sie wirken nicht, auch wenn sie verkn&#252;pft sind.</p><p class='emp'><b>Empfehlung:</b> Wenn die Richtlinie nicht mehr gebraucht wird: sichern und l&#246;schen.</p><table>
+<colgroup><col/><col/><col/><col/></colgroup>
+<tr><th>Gruppenrichtlinie</th><th>Status</th><th>Geändert</th><th>Inhalt</th></tr>
+<tr><td>Test Altlast</td><td>Deaktiviert</td><td>09.11.2026</td><td>keine Einstellungen</td></tr>
+</table></div><div class='befund Info' id='A1'><h3><span class='marke m-Info'>Info</span> A1 · Erzwungene Verkn&#252;pfungen <span class='klein'>(1 Treffer)</span></h3><p>Erzwungene Verkn&#252;pfungen setzen sich gegen alle Richtlinien darunter durch und ignorieren eine deaktivierte Vererbung. Sinnvoll f&#252;r wenige Sicherheitsvorgaben - in gr&#246;&#223;erer Zahl wird das Ergebnis schwer vorhersagbar.</p><p class='emp'><b>Empfehlung:</b> Zur Kenntnis. Erzwingen sparsam einsetzen und dokumentieren.</p><table>
+<colgroup><col/><col/><col/><col/><col/></colgroup>
+<tr><th>Ort</th><th>Gruppenrichtlinie</th><th>Reihenfolge</th><th>Aktiv</th><th>Erzwungen</th></tr>
+<tr><td>Dom&#228;ne lab.test</td><td>Test Sicherheit</td><td>2</td><td>Ja</td><td>Ja</td></tr>
+</table></div><h2>Ohne Befund</h2><table><tr><th>Nr.</th><th>Prüfpunkt</th></tr><tr id='F1'><td>F1</td><td>Verkn&#252;pfungen auf nicht vorhandene Gruppenrichtlinien</td></tr><tr id='S1'><td>S1</td><td>Jeder Benutzer darf die Richtlinie bearbeiten</td></tr></table><div class='fuss'>GPO-Bericht Light Version 1.0 · IT Admin Tools by MM · Das Skript hat ausschließlich gelesen und nichts verändert. Light-Version mit 6 von 26 Pr&#252;fpunkten der Vollversion (https://mueller86.gumroad.com/l/wdosl). Der Inhalt der Richtlinien wird aus den Dateien in SYSVOL abgeleitet; einzelne Einstellungen bewertet der Bericht nicht. Er ersetzt keine Sicherheitspr&#252;fung und erhebt keinen Anspruch auf Vollst&#228;ndigkeit.</div></div></body></html>
