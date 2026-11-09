@@ -54,6 +54,17 @@ Die Light-Version enthält 6 von 26 Prüfpunkten (23 %). Die **Vollversion** pr�
 
 ➜ **[Vollversion auf Gumroad](https://mueller86.gumroad.com/l/wdosl)** · **[Vollversion auf Etsy](https://www.etsy.com/listing/4593129111)** · **[alle Prüfskripte im Shop](https://www.etsy.com/shop/ITAdminToolsbyMM)**
 
+## Weitere kostenlose Prüfskripte
+
+- [AD-Schnellcheck](https://github.com/jackyno7/ad-schnellcheck) (8 Prüfpunkte zur Domäne)
+- [Rechner Inventar Light](https://github.com/jackyno7/rechner-inventar-light)
+- [Anmelde Sperrbericht Light](https://github.com/jackyno7/anmelde-sperrbericht-light)
+- [Berechtigungsbericht Light](https://github.com/jackyno7/berechtigungsbericht-light)
+- [Dateiserver Bericht Light](https://github.com/jackyno7/dateiserver-bericht-light)
+- [Kerberos Altlasten Check Light](https://github.com/jackyno7/kerberos-altlasten-check-light)
+- [DNS DHCP Bericht Light](https://github.com/jackyno7/dns-dhcp-bericht-light)
+- [DC Gesundheitsbericht Light](https://github.com/jackyno7/dc-gesundheitsbericht-light)
+
 ## Hinweise
 
 - Der Bericht enthält Konto-, Rechner- oder Servernamen – bitte vertraulich behandeln.
