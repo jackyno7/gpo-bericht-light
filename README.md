@@ -88,6 +88,8 @@ Vollversionen:
 - Exchange-Nachrichtenverfolgung: [Etsy](https://www.etsy.com/listing/4614785975) · [Gumroad](https://mueller86.gumroad.com/l/msria)
 - Active Directory Prüfskript-Paket: [Etsy](https://www.etsy.com/listing/4611942401) · [Gumroad](https://mueller86.gumroad.com/l/awzjtc)
 
+Kostenlose Skripte: [Zertifikate-Bericht](https://github.com/jackyno7/zertifikate-bericht) ([Gumroad](https://mueller86.gumroad.com/l/zsfvec)) · [Privilegierte-Konten-Check](https://github.com/jackyno7/privilegierte-konten-check) ([Gumroad](https://mueller86.gumroad.com/l/pamjky))
+
 Vorlagen und Checklisten (Notfallplan, Backup, Passwortrichtlinie, Onboarding, Homeoffice, Netzwerk-Dokumentation): [Etsy](https://www.etsy.com/shop/ITAdminToolsbyMM) · [Gumroad](https://mueller86.gumroad.com)
 <!-- querverweis:ende -->
 
@@ -126,6 +128,8 @@ Full versions:
 - Exchange Calendar Permissions Report: [Etsy](https://www.etsy.com/listing/4614799790) · [Gumroad](https://mueller86.gumroad.com/l/iabfb)
 - Exchange Message Tracking: [Etsy](https://www.etsy.com/listing/4614785975) · [Gumroad](https://mueller86.gumroad.com/l/msria)
 - Active Directory Check Script Bundle: [Etsy](https://www.etsy.com/listing/4611942401) · [Gumroad](https://mueller86.gumroad.com/l/awzjtc)
+
+Free scripts: [Zertifikate-Bericht](https://github.com/jackyno7/zertifikate-bericht) ([Gumroad](https://mueller86.gumroad.com/l/zsfvec)) · [Privilegierte-Konten-Check](https://github.com/jackyno7/privilegierte-konten-check) ([Gumroad](https://mueller86.gumroad.com/l/pamjky))
 
 Templates and checklists (emergency plan, backup, password policy, onboarding, home office, network documentation): [Etsy](https://www.etsy.com/shop/ITAdminToolsbyMM) · [Gumroad](https://mueller86.gumroad.com)
 <!-- querverweis-en:ende -->
