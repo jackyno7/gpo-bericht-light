@@ -9,7 +9,7 @@
 
 .DESCRIPTION
     The script operates exclusively in READ-ONLY mode. It changes no Group Policy object, no link, and nothing
-    in Active Directory or SYSVOL, and it transfers no data. It writes exactly one HTML file (and, if
+    in Active Directory or SYSVOL, and it sends no data to third parties or the internet. It writes exactly one HTML file (and, if
     requested, CSV files) to the specified output folder.
 
     Prerequisites: Windows PowerShell 5.1, the module "ActiveDirectory" and a domain account with read permissions.
@@ -19,7 +19,7 @@
 
     Deutsch:
     Das Skript arbeitet ausschließlich LESEND. Es ändert keine Gruppenrichtlinie, keine Verknüpfung und nichts
-    im Active Directory oder in SYSVOL und überträgt keine Daten. Es schreibt genau eine HTML-Datei (und auf
+    im Active Directory oder in SYSVOL und sendet keine Daten an Dritte oder ins Internet. Es schreibt genau eine HTML-Datei (und auf
     Wunsch CSV-Dateien) in den angegebenen Ausgabeordner.
 
     Voraussetzungen: Windows PowerShell 5.1, das Modul "ActiveDirectory" und ein Domänenkonto mit Leserechten.
